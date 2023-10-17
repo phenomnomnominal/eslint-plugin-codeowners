@@ -1,0 +1,46 @@
+{
+  "name": "eslint-plugin-codeowners",
+  "version": "0.0.3",
+  "description": "An ESLint plugin to lint CODEOWNERS files.",
+  "license": "MIT",
+  "author": {
+    "name": "Craig Spence",
+    "url": "https://github.com/phenomnomnominal"
+  },
+  "repository": "https://github.com/phenomnomnominal/eslint-plugin-codeowners",
+  "bugs": {
+    "url": "https://github.com/phenomnomnominal/eslint-plugin-codeowners/issues"
+  },
+  "homepage": "https://github.com/phenomnomnominal/eslint-plugin-codeowners#readme",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "codeowners",
+    "lint",
+    "linter"
+  ],
+  "scripts": {
+    "compile": "tsc"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/eslint": "^8.44.4",
+    "@types/node": "^20.8.6",
+    "eslint": "^7.32.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "codeowners-utils": "^1.0.2",
+    "find-up": "^5.0.0",
+    "ignore": "^5.2.4"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  }
+}
